@@ -10,7 +10,7 @@ public class CarInventory {
 
     }
 
-    // region DisplayGarage
+
     public static void displayGarage(String[][] cars) {
 
         for (int i = 0; i <= cars.length - 1; i++) {
@@ -20,7 +20,6 @@ public class CarInventory {
             System.out.println();
         }
     }
-    // endregion
 
 
     public static void EntryCar(String space, String carName){
